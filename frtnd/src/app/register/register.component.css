@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ff7f50, #ff6347);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Card Styles */
+  .card {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-header {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-footer {
+    padding: 10px;
+    background-color: #4c6ef5;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+  }
+  
+  /* Form Styling */
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-label {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+    background: #fff;
+    color: #333;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+    border-color: #ff6347;
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff6347;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff7f50;
+  }
+
+  .card-footer small {
+    font-size: 0.9rem;
+  }
+  
+  .card-footer small a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .card-footer small a:hover {
+    text-decoration: underline;
+  }
+
+  .form-control:focus {
+    box-shadow: 0 0 15px rgba(255, 99, 71, 0.5);
+    border-color: #ff6347;
+  }
+  
